@@ -13,10 +13,16 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
+// I AM DONE
+
+// fn min(a: i32, b: i32) -> i32 { if a < b {a} else {b}}
+// fn max(a: i32, b: i32) -> i32 { if a > b {a} else {b}}
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(n: i32) -> i32 {
+    let price = if n > 40 {1} else {2};
+    price * n
+}
 
 // Don't modify this function!
 #[test]
